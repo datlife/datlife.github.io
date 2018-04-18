@@ -6,8 +6,7 @@ export let posts = {
       title: 'Hello World!',
       date: 'Dec 25, 2017',
       photo: '/blog/2017-06-05-hello-world/hello-world.jpg',
-      summary: "This blog is built with React / GraphQL with the help of" +
-               " Apollo Client 2.0. :)",
+      summary: "Kakaka",
       body: {},
       claps: 20,
       meh: 0,
