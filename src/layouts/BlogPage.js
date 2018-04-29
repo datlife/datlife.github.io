@@ -1,6 +1,6 @@
 import React from 'react';
 import ArticlePreview from '../components/ArticlePreview';
-import {posts} from './Data';
+import {posts} from '../Data';
 
 class BlogPage extends React.Component {
   render() {

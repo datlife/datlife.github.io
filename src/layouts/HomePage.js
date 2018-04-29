@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import ArticlePreview from '../components/ArticlePreview';
 
-import {posts} from './Data';
+import {posts} from '../Data';
 
 
 export let bio = {

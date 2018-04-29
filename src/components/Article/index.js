@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import {posts} from '../../layouts/Data';
+import {posts} from '../../Data';
 
 class Article extends React.Component {
   render() {
