@@ -6,7 +6,7 @@ export let posts = {
       title: 'Hello World!',
       date: 'Dec 25, 2017',
       photo: '/blog/2017-06-05-hello-world/hello-world.jpg',
-      summary: "Kakaka",
+      summary: "My first Blog",
       body: {},
       claps: 20,
       meh: 0,

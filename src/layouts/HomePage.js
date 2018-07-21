@@ -25,7 +25,6 @@ export let latest_news = {
 }
 
 class HomePage extends React.Component {
-
   render() {
     return (
       <div className='Home'>
@@ -86,9 +85,7 @@ class HomePage extends React.Component {
 
         <section className="projects">
           <h2 className="bd-title">Side Projects</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Necessitatibus sint praesentium commodi reiciendis aspernatur, 
-            suscipit provident animi vel laborum! Accusamus.</p>
+          <p>I WILL MAKE THIS WORK!!!!</p>
         </section>
       </div>
     );
