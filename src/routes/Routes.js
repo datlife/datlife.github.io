@@ -18,7 +18,7 @@ class Main extends React.Component {
           <Route path='/posts/:id' component={Article}/>
           <Route path='/projects' component={ProjectPage}/>
           <Route path='/life'     cosmponent={LifePage}/>
-          <Route path='/*'        component={NotFoundPage}/>
+          {/* <Route path='/*'        component={NotFoundPage}/> */}
         </Switch>
       </div> 
     );
