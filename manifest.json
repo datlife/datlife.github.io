@@ -1,11 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "start_url": "./index.html",
+  "short_name": "Dat Nguyen Website",
+  "name": "Engineering",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "icons": {
-    "128": "avatar-small.jpg"
-  }
+  "background_color": "#ffffff"
 }
