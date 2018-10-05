@@ -1,0 +1,39 @@
+.header {
+  position: sticky;
+  display: flex;
+  align-items: baseline; // align text,  not flex-end.
+  justify-content: space-between;
+  padding: 2em 0;
+
+  &__logo {
+    margin-left: 5ch;
+    a{
+      margin:0;
+      padding:0;
+    }
+    .brand{
+      &--main{font-weight: 900;}
+      &--sub{font-weight: 200;}
+    }
+  }
+
+  &__nav-bar {
+    margin-right: 2ch;
+    display: flex;
+    align-items: baseline;
+    a{
+      margin: 0 1vh;
+      &:hover{
+        color: var(--color-primary-1);
+      }
+    }
+  }
+  a {
+    color: inherit;
+    &:link, &:visited{
+      text-decoration: none;
+    }
+
+  }
+}
+
