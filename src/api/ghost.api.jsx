@@ -13,17 +13,16 @@ class Ghost {
   }
   async getPage(pageNumber){
     const page = await this.get('posts',
-      { page: pageNumber, 
+      { page: pageNumber,
         limit: 3, 
         absolute_urls: true,
         filter: "author_id:1",
         fields: "slug,id,title,feature_image,custom_excerpt,published_at"})
     return page;
   }
-  async getPost(postID){
-    const page = await this.get(`posts/${postID}/`,
-      { absolute_urls: true,
-        fields: "html,title,feature_image,custom_excerpt,published_at"})
+  async getPost(slug){
+    const page = await this.get(`posts/slug/${slug}/`,
+      { absolute_urls: true})
     return page;
   }
 }

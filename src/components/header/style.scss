@@ -2,16 +2,16 @@
   position: sticky;
   display: flex;
   align-items: baseline; // align text,  not flex-end.
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2em 0;
 
   &__logo {
-    margin-left: 5ch;
     a{
       margin:0;
       padding:0;
     }
     .brand{
+      font-size: 2.5rem;
       &--main{font-weight: 900;}
       &--sub{font-weight: 200;}
     }

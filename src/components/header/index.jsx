@@ -14,8 +14,14 @@ class Header extends Component {
           </h3>
         </div>
         <nav className="header__nav-bar">
-          <button className='btn btn-primary night-mode-switch' 
-              onClick={(e) => {document.body.classList.toggle('night-mode')}}>
+          <button className='btn btn-primary'
+              onClick={(e) => {
+                  document.body.classList.toggle('night-mode')
+                  document.body.classList.contains('night-mode') ?
+                    localStorage.setItem('night_mode', 1):
+                    localStorage.setItem('night_mode', 0)
+
+              }}>
               Night Mode
           </button>
           <a href="/projects">Projects</a>

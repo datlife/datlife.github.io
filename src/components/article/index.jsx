@@ -9,7 +9,8 @@ class Article extends React.Component {
   }
   async componentDidMount() {
     try {
-      const data = await ghostAPI.getPost(this.props.location.state.postID)
+      const slug =this.props.location.pathname.split('/')[2]
+      const data = await ghostAPI.getPost(slug)
       this.setState({ loading: false, post: data.posts[0] })
     } catch (error) {
       console.error(error)
@@ -19,16 +20,21 @@ class Article extends React.Component {
   createHTML(){
     return {__html: this.state.post.html}
   }
+
   render() {
     let post = this.state.post;
     return (
       this.state.loading 
         ? 'Loading Page'
         : <div className="article container" >
-            <h1 className="article__headline">{post.title}</h1>
-            <div className="aritcle__feature_img">
+            <div className="article__feature_img">
               <img src={post.feature_image} alt="feature" className='img-fluid'/>
             </div>
+            <h1 className="article__headline">{post.title}</h1>
+            <span className="article__meta">
+              <div className="article__meta--author">Dat Nguyen</div>
+              <div className="article__meta--date">{post.published_at.split('T')[0]}</div>
+            </span>
             <div className="article__body">
               <div dangerouslySetInnerHTML={this.createHTML()}></div>
             </div>
