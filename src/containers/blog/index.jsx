@@ -11,10 +11,9 @@ class Blog extends Component {
 
   async componentDidMount() {
     const page = await ghostAPI.getPage(this.state.currentPage)
-    console.log(page)
     this.setState({loading: false, currentPage: 1, page: page})
   }
-
+  
   render() {
     return (
       <div className="blog container">

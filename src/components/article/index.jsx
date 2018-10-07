@@ -11,7 +11,6 @@ class Article extends React.Component {
     try {
       const data = await ghostAPI.getPost(this.props.location.state.postID)
       this.setState({ loading: false, post: data.posts[0] })
-      console.log(this.state)
     } catch (error) {
       console.error(error)
     }
@@ -21,12 +20,11 @@ class Article extends React.Component {
     return {__html: this.state.post.html}
   }
   render() {
-    console.log(this.state.post);
     let post = this.state.post;
     return (
       this.state.loading 
         ? 'Loading Page'
-        : <div className="article container">
+        : <div className="article container" >
             <h1 className="article__headline">{post.title}</h1>
             <div className="aritcle__feature_img">
               <img src={post.feature_image} alt="feature" className='img-fluid'/>
@@ -38,5 +36,4 @@ class Article extends React.Component {
       )
   }
 }
-
 export default Article
