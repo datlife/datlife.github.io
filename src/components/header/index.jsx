@@ -4,8 +4,8 @@ import './style.scss';
 class Header extends Component {
   render() {
     return (
-      <header className="header">
-        <div className="header__logo">
+      <header className="header container flex-container">
+        <div className="header__logo flex-container__item">
           <h3 className="brand">
           <a href="/">
             <span className="brand--main">Dat | </span>
@@ -13,20 +13,22 @@ class Header extends Component {
             </a>
           </h3>
         </div>
-        <nav className="header__nav-bar">
+        <nav className="header__nav-bar flex-container__item">
+          <a href="/projects">Projects</a>
+          <a href="/resume">Resume</a>
+          <a href="/about">About</a>
           <button className='btn btn-primary'
               onClick={(e) => {
-                  document.body.classList.toggle('night-mode')
-                  document.body.classList.contains('night-mode') ?
-                    localStorage.setItem('night_mode', 1):
+                  if (document.body.classList.contains('night-mode')){
+                    document.body.classList.remove('night-mode')
                     localStorage.setItem('night_mode', 0)
-
+                  } else{
+                    document.body.classList.add('night-mode')
+                    localStorage.setItem('night_mode', 1)
+                  }
               }}>
               Night Mode
           </button>
-          <a href="/projects">Projects</a>
-          {/* <a href="/resume">Resume</a> */}
-          <a href="/about">About</a>
          </nav>
       </header>
     );

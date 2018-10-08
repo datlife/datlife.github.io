@@ -8,7 +8,6 @@ class Blog extends Component {
     super(props);
     this.state = {loading: true, currentPage: 1, page: null}
   }
-
   async componentDidMount() {
     const page = await ghostAPI.getPage(this.state.currentPage)
     this.setState({loading: false, currentPage: 1, page: page})

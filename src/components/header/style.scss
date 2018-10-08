@@ -2,10 +2,12 @@
   position: sticky;
   display: flex;
   align-items: baseline; // align text,  not flex-end.
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2em 0;
 
   &__logo {
+    display: flex;
+    justify-content: center;
     a{
       margin:0;
       padding:0;
@@ -18,9 +20,8 @@
   }
 
   &__nav-bar {
-    margin-right: 2ch;
     display: flex;
-    align-items: baseline;
+    justify-content: center;
     a{
       margin: 0 1vh;
       &:hover{
