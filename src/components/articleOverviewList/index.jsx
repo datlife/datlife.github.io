@@ -11,23 +11,20 @@ class ArticleOverviewList extends React.Component {
     .format(date)
   }
 
-  renderOverview(post){
-    const location = {
-      pathname: `/blog/${post.slug}`, 
-      state: {postID: post.id}}
+  renderOverview(post){ 
     const overview = 
       <div className="overview" key={post.slug}>
         <div className="overview__date">
           {this.formatDate(post.published_date)}
         </div>
         <div className="overview__description">
-          <Link to={location} className='overview__description--link'>
+          <Link to={`/blog/${post.slug}`} className='overview__description--link'>
             <h2 className="overview__description--title">{post.title}</h2>
           </Link>
             <p className="overview__description--excerpt">{post.custom_excerpt}</p>
         </div>
         <div className="overview__feature_image">
-          <Link to={location} className='overview__description--link'>
+          <Link to={`/blog/${post.slug}`} className='overview__description--link'>
             <img src={post.feature_image} alt="featured"/>
           </Link>
         </div>
