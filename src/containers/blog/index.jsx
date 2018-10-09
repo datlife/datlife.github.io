@@ -15,7 +15,7 @@ class Blog extends Component {
   
   render() {
     return (
-      <div className="blog container">
+      <div className="blog  repsonsive-container">
         {this.state.loading ?
           'Loading Blog...'
           : this.state.page.posts?

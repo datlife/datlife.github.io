@@ -3,21 +3,19 @@
 .overview{
   display: flex;
   justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+  border-bottom: 0.01rem solid var(--color-primary);
 
   @include respond(phone){
     flex-wrap: wrap;
-    padding: 0;
-
   }
-  padding: 1rem 0 1rem 0;
-  border-bottom: 0.01rem solid var(--color-primary);
 
   &__date {
     font-weight: 100;
     font-size: 70%;
     flex: 0 0 10%;
     @include respond(phone){
-      order: 1;
+      order: 2;
       flex: 1 0 100%;
     }
   }
@@ -28,34 +26,29 @@
     @include respond(phone){
       flex: 1 0 100%;
       order: 0;
+      padding: 2rem 0;
       display: flex;
       justify-content: center;
-      padding: 4rem 0;
+      margin-left:-2rem;
+      margin-right:-2rem;
 
-      width: 100%;
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-
-      img{
-        width: calc(100% + 20px); // twice the value of the parent's padding
-        margin-left: -10px; // -1 * parent's padding
-      }
     }
     img{
       max-width: 100%;
       height: auto;
     }
   }
+
   &__description{
     flex: 0 0 65%;
     @include respond(phone){
-      order: 2;
+      order: 1;
       flex: 1 0 100%;
-      display: flex;
-      flex-wrap: wrap;
     }
+
     &--title{ font-weight: 900;}
-    &--summary{font-weight: 400;}
+    &--excerpt{font-weight: 400;  font-size: 1.7rem;}
+
     &--link{
       color: inherit;
       &:active, &:visited{text-decoration: none;}

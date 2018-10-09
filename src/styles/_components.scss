@@ -1,9 +1,15 @@
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    &__item{
-        // border: 1px solid black;
-        display: flex;
-        flex-grow: 1;
+.repsonsive-container {
+    margin-left: 15rem;
+    margin-right:15rem;
+  
+    @include respond(tab-land){
+      margin-left: 5rem;
+      margin-right:5rem;
+    }
+  
+    @include respond(phone){
+      margin-left: 2rem;
+      margin-right:2rem;
     }
 }
+  
