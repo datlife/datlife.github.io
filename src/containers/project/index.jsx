@@ -4,8 +4,8 @@ import './style.scss'
 class Project extends Component {
   render() {
     return (
-      <div className="project">
-        <h3>This is Project Page</h3>
+      <div className="project container">
+          Under construction
       </div>
     )
   }

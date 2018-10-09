@@ -26,7 +26,7 @@ class Article extends React.Component {
     return (
       this.state.loading 
         ? 'Loading Page'
-        : <div className="article container" >
+        : <div className="article repsonsive-container" >
             <div className="article__feature_img">
               <img src={post.feature_image} alt="feature" className='img-fluid'/>
             </div>

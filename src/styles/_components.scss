@@ -1,10 +1,10 @@
 .repsonsive-container {
-    margin-left: 15rem;
-    margin-right:15rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
   
     @include respond(tab-land){
-      margin-left: 5rem;
-      margin-right:5rem;
+      margin-left: 15rem;
+      margin-right:15rem;
     }
   
     @include respond(phone){

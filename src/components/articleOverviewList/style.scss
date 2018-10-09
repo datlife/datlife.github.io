@@ -31,7 +31,6 @@
       justify-content: center;
       margin-left:-2rem;
       margin-right:-2rem;
-
     }
     img{
       max-width: 100%;
@@ -47,7 +46,9 @@
     }
 
     &--title{ font-weight: 900;}
-    &--excerpt{font-weight: 400;  font-size: 1.7rem;}
+    &--excerpt{
+      font-weight: 400;  
+      font-size: 1.7rem;}
 
     &--link{
       color: inherit;

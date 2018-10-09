@@ -4,8 +4,8 @@ import './style.scss'
 class About extends React.Component {
   render() {
     return (
-      <div className="about">
-        Hello
+      <div className="about container">
+        Under construction
       </div>
     )
   }

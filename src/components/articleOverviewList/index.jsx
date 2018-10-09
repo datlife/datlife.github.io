@@ -21,7 +21,7 @@ class ArticleOverviewList extends React.Component {
           <Link to={`/blog/${post.slug}`} className='overview__description--link'>
             <h2 className="overview__description--title">{post.title}</h2>
           </Link>
-            <p className="overview__description--excerpt text-justify">{post.custom_excerpt}</p>
+            <p className="overview__description--excerpt">{post.custom_excerpt}</p>
         </div>
         <div className="overview__feature_image">
           <Link to={`/blog/${post.slug}`} className='overview__description--link'>
