@@ -11,7 +11,7 @@ class ArticleOverviewList extends React.Component {
     .format(date)
   }
 
-  renderOverview(post){ 
+  renderOneOverview(post){ 
     const overview = 
       <div className="overview" key={post.slug}>
         <div className="overview__date">
@@ -37,7 +37,7 @@ class ArticleOverviewList extends React.Component {
     return (
       <div className="articles-list">
         <h1 className="articles-list__title">Blog</h1>
-         {articles.map(post => this.renderOverview(post))}
+         {articles.map(post => this.renderOneOverview(post))}
       </div>
     )
   }
