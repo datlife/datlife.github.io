@@ -4,7 +4,7 @@ import './style.scss';
 class Header extends Component {
   render() {
     return (
-      <header className="header  repsonsive-container">
+      <header className="header repsonsive-container">
         <div className="header__logo">
           <h3 className="brand">
           <a href="/">
@@ -14,10 +14,10 @@ class Header extends Component {
           </h3>
         </div>
         <nav className="header__nav-bar">
+          <a href="/blog">Blog</a>
           <a href="/projects">Projects</a>
-          <a href="/resume">Resume</a>
           <a href="/about">About</a>
-          <button className='btn btn-primary'
+          {/* <button className='btn btn-primary'
               onClick={(e) => {
                   if (document.body.classList.contains('night-mode')){
                     document.body.classList.remove('night-mode')
@@ -28,7 +28,7 @@ class Header extends Component {
                   }
               }}>
               Night Mode
-          </button>
+          </button> */}
          </nav>
       </header>
     );
