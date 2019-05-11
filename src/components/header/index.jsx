@@ -13,10 +13,10 @@ class Header extends Component {
             </a>
           </h3>
         </div>
-        <nav className="header__nav-bar">
+        {/* <nav className="header__nav-bar">
           <a href="/blog">Blog</a>
           <a href="/projects">Projects</a>
-          <a href="/about">About</a>
+          <a href="/about">About</a> */}
           {/* <button className='btn btn-primary'
               onClick={(e) => {
                   if (document.body.classList.contains('night-mode')){
@@ -29,7 +29,7 @@ class Header extends Component {
               }}>
               Night Mode
           </button> */}
-         </nav>
+         {/* </nav> */}
       </header>
     );
   }
