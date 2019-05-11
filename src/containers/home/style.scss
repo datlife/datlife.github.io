@@ -42,3 +42,13 @@
 
 }
 
+#home {
+  display: flex;
+  flex-flow: column;
+
+  a {
+    align-self: center;
+  }
+}
+
+
