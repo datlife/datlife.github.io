@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on YOLO!</title>
-    <link>http://blog.dat.works/posts/</link>
+    <link>http://datlife.github.io/posts/</link>
     <description>Recent content in Posts on YOLO!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Nov 2019 10:09:03 -0800</lastBuildDate>
     
-	<atom:link href="http://blog.dat.works/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://datlife.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>http://blog.dat.works/posts/hello/</link>
+      <link>http://datlife.github.io/posts/hello/</link>
       <pubDate>Wed, 20 Nov 2019 10:09:03 -0800</pubDate>
       
-      <guid>http://blog.dat.works/posts/hello/</guid>
+      <guid>http://datlife.github.io/posts/hello/</guid>
       <description>This blog is built with Hugo.</description>
     </item>
     

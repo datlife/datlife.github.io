@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.dat.works/posts/hello/</loc>
+    <loc>http://datlife.github.io/posts/hello/</loc>
     <lastmod>2019-11-20T10:09:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.dat.works/posts/</loc>
+    <loc>http://datlife.github.io/posts/</loc>
     <lastmod>2019-11-20T10:09:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.dat.works/</loc>
+    <loc>http://datlife.github.io/</loc>
     <lastmod>2019-11-20T10:09:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.dat.works/about/</loc>
+    <loc>http://datlife.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>http://blog.dat.works/categories/</loc>
+    <loc>http://datlife.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://blog.dat.works/tags/</loc>
+    <loc>http://datlife.github.io/tags/</loc>
   </url>
   
 </urlset>
