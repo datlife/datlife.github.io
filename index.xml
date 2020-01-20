@@ -6,19 +6,9 @@
     <description>Recent content on YOLO!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Nov 2019 10:09:03 -0800</lastBuildDate>
     
 	<atom:link href="https://datlife.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://datlife.github.io/posts/hello/</link>
-      <pubDate>Wed, 20 Nov 2019 10:09:03 -0800</pubDate>
-      
-      <guid>https://datlife.github.io/posts/hello/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>About</title>
@@ -31,6 +21,15 @@ My goals for having a blog are simple:
  Force to organize my thoughts better. Improve my communication skill.  Cheers,
 Dat
 Related links  My parsable resume: https://resume.dat.works/ My dis-organized yet functional projects 😉: https://github.com/datlife  </description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://datlife.github.io/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://datlife.github.io/posts/</guid>
+      <description></description>
     </item>
     
   </channel>

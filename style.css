@@ -14,7 +14,7 @@
   --nav-width: 1024px;
   --main-width: 640px;
   --header-height: 60px;
-  --footer-height: 70px;
+  --footer-height: 60px;
   --radius: 8px;
 
   --theme: #fff;
@@ -500,13 +500,6 @@ img {
 .footer a:hover {
   color: var(--primary);
   border-bottom: 1px solid var(--primary);
-}
-
-.footer .quote {
-  font-weight: 500;
-  font-style: italic;
-  font-size: 14px;
-  color: var(--secondary);
 }
 /* 404
 -------------------------------------------------- */
