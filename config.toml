@@ -8,9 +8,8 @@ enableEmoji = true
   color = 'linen'
   twitter = 'datfreedom'
   github = 'datlife'
-  avatar = 'tdat.nguyen93@gmail.com'
-  name = 'Dat (Andy) Nguyen'
-  author = 'Dat (Andy) Nguyen'
+  name = 'Andy (Dat) Nguyen'
+  author = 'Andy (Dat) Nguyen'
   bio = 'Yesterday is history, tomorrow is a mystery and today is a gift of God, which is why we call it present. Live in the now, grind for the future ❤️'
 # ------------------------------
 
@@ -30,28 +29,22 @@ enableEmoji = true
     url = "/about/"
 
 [privacy]
-
   [privacy.vimeo]
     disabled = false
     simple = true
-
   [privacy.x]
     enableDNT = true
     simple = true
-
   [privacy.instagram]
     disabled = false
     simple = true
-
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
 
 [services]
-
   [services.instagram]
     disableInlineCSS = true
-
   [services.x]
     disableInlineCSS = true
 
