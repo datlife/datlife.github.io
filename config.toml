@@ -7,10 +7,9 @@ enableEmoji = true
 [params]
   color = 'linen'
   twitter = 'datfreedom'
-  github = 'datlife'
   name = 'Andy (Dat) Nguyen'
   author = 'Andy (Dat) Nguyen'
-  bio = 'Yesterday is history, tomorrow is a mystery and today is a gift of God, which is why we call it present. Live in the now, grind for the future ❤️'
+  bio = 'Yesterday is history, tomorrow is a mystery and today is a gift of God, which is why we call it present. Live in the now ❤️'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
