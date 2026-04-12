@@ -1,4 +1,4 @@
 [submodule "themes/paper"]
 	path = themes/paper
-	url = git@github.com:datlife/hugo-paper.git
+	url = https://github.com/nanxiaobei/hugo-paper.git
 	branch = master
