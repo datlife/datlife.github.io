@@ -10,6 +10,7 @@ enableEmoji = true
   github = 'datlife'
   avatar = 'tdat.nguyen93@gmail.com'
   name = 'Dat (Andy) Nguyen'
+  author = 'Dat (Andy) Nguyen'
   bio = 'Yesterday is history, tomorrow is a mystery and today is a gift of God, which is why we call it present. Live in the now, grind for the future ❤️'
 # ------------------------------
 
@@ -34,8 +35,7 @@ enableEmoji = true
     disabled = false
     simple = true
 
-  [privacy.twitter]
-    disabled = false
+  [privacy.x]
     enableDNT = true
     simple = true
 
@@ -52,7 +52,7 @@ enableEmoji = true
   [services.instagram]
     disableInlineCSS = true
 
-  [services.twitter]
+  [services.x]
     disableInlineCSS = true
 
 [imaging]
