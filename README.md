@@ -23,6 +23,4 @@ hugo server -D
 
 ## Publish
 
-```
-./deploy.sh "add new post"
-```
+Push to `master` branch. GitHub Actions will automatically build and deploy to GitHub Pages.
