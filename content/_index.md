@@ -4,8 +4,7 @@ title: "Dat Nguyen"
 
 I grew up in Vietnam and call the Bay Area my second home. I'm a
 machine-learning engineer at [Zscaler](https://www.zscaler.com/), where I work
-on ML systems for security — the kind that have to hold up in production, not
-just in a notebook.
+on ML systems for security.
 
 **I write a few times a year** — mostly about building software and ML systems,
 sometimes about money and attention. Not a newsletter, no comments, nothing to
