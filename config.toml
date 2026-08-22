@@ -1,15 +1,50 @@
 baseURL = "https://dat.works/"
 languageCode = "en-us"
-title = "YOLO!"
+title = "Dat Nguyen"
 theme = "paper"
 enableEmoji = true
 
+# Only `tag` — `categories` was a second taxonomy doing the same job.
+# Controlled vocabulary, deliberately small. Adding a tag outside this list is
+# how you end up with 30 single-use tags, which is the same as having none:
+#   software · money · books · attention · travel · life
+[taxonomies]
+  tag = "tags"
+
+# Tag-based "related posts" — the cheap 80% of a graph view, with none of the
+# machinery. Improves on its own as tagged posts accumulate.
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = true
+
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+# Date-prefixed directories are for ordering source files, not for URLs.
+[permalinks]
+  posts = "/writing/:slug/"
+
 [params]
   color = 'linen'
+  # Rendered as the icon row in the header. Order is fixed by the theme:
+  # twitter, github, instagram, linkedin, mastodon, rss.
+  # TODO(dat): add `linkedin = '<handle>'` — the about page tells people to check
+  # your LinkedIn but never links it.
   twitter = 'datfreedom'
-  name = 'Andy (Dat) Nguyen'
-  author = 'Andy (Dat) Nguyen'
-  bio = 'Yesterday is history, tomorrow is a mystery and today is a gift of God, which is why we call it present. Live in the now ❤️'
+  github = 'datlife'
+  rss = true
+  name = 'Dat Nguyen'
+  author = 'Dat Nguyen'
+  description = 'Software engineer in the Bay Area. I write a few times a year about software, money, attention, and the things I have changed my mind about.'
+  bio = 'A good investment is something you have control over.'
+  images = ['og.jpg']
+  mainSections = ['posts']
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -20,12 +55,18 @@ enableEmoji = true
 #  [markup.highlight]
 #    lineNos = true
 
+# Two items. A nav entry is a maintenance commitment, not a statement of intent.
 [menu]
+  [[menu.main]]
+    identifier = "writing"
+    name = "writing"
+    url = "/posts/"
+    weight = 1
   [[menu.main]]
     identifier = "about"
     name = "about"
-    pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
+    weight = 2
 
 [privacy]
   [privacy.vimeo]

@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+{{/*
+  Portrait homepage, not a feed.
+
+  IMPORTANT: do not use Tailwind utility classes in this file. The theme ships a
+  PRE-COMPILED main.css and its tailwind.config.js only scans ./layouts inside the
+  theme directory, so any utility class written here is silently absent from the
+  stylesheet. Use the semantic class names below and style them in assets/custom.css.
+*/}}
+
+<section class="portrait">
+  {{/* The header already shows the name next to the theme toggle, so this h1 is
+       visually hidden. It stays in the markup because a page with no h1 is a real
+       accessibility and SEO regression — screen readers and crawlers use it to
+       identify the document. */}}
+  <h1 class="visually-hidden">{{ site.Params.name | default site.Title }}</h1>
+  {{ .Content }}
+</section>
+
+<section class="writing">
+  <h2 class="writing-heading">Writing</h2>
+
+  {{ $posts := where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{ range $posts.ByDate.Reverse }}
+  <article class="writing-item">
+    <a class="writing-link" href="{{ .Permalink }}">{{ .Title }}</a>
+    <div class="writing-meta">
+      <time datetime="{{ .Date.Format `2006-01-02` }}">
+        {{ .Date | time.Format ":date_medium" }}
+      </time>
+      {{ with .Params.tags }}
+      <span class="writing-tags">
+        {{ range . }}<a href="{{ `tags/` | absURL }}{{ . | urlize }}/">#{{ . }}</a>{{ end }}
+      </span>
+      {{ end }}
+    </div>
+    {{ with .Params.summary }}<p class="writing-summary">{{ . }}</p>{{ end }}
+  </article>
+  {{ end }}
+</section>
+
+{{ end }}

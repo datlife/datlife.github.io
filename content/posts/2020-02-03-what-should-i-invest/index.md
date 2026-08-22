@@ -1,9 +1,17 @@
 
 ---
 title: "What to invest in 2020?"
+slug: "what-to-invest-in"
 date: 2020-02-03T10:35:35-05:00
+tags: ["money", "life"]
 draft: false
+summary: "A good investment is something you have control over."
+aliases:
+  - /posts/2020-02-03-what-should-i-invest/
 ---
+
+*Written in early 2020, before a pandemic and two bull markets. I still hold the
+central claim — maybe more firmly now.*
 
 ## The problem
 

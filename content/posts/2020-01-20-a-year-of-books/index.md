@@ -1,10 +1,18 @@
 ---
 title: "2020 - The Year in Books"
+slug: "year-in-books-2020"
 date: 2020-01-20T10:35:35-05:00
-categories: ["life","goals"]
+tags: ["books", "life"]
 draft: false
 summary: "A wishlist of books I'd like to read in 2020."
+aliases:
+  - /posts/2020-01-20-a-year-of-books/
 ---
+
+*Written in January 2020. Of the sixteen books below I finished five and left two
+half-read — which is a more honest hit rate than I expected when I made the list.*
+<!-- TODO(dat): add one sentence here naming the book that actually stuck, and why.
+     That sentence is the whole reason this page is worth keeping. -->
 
 > During childhood, books were my mentors, my friends, and my parallel reality. 
 It played a significant role in my satisfaction for exploring the world. 
