@@ -7,12 +7,16 @@ summary: "What a rolled-back odometer taught me about trusting my gut."
 draft: true
 ---
 
-<!-- TODO(dat): the last line below trails off mid-thought ("This might be just me,").
-     Finish that one sentence and flip draft to false. This is the most human thing
-     on the site and it is one sentence away from shipping. -->
+A few things I learned buying a used car. The "owner" — the
+one-who-keeps-the-pink-slip — had rolled back the odometer, which I would have
+caught if I'd checked the CarFax. They did a good job detailing the car, but I
+could still see missing nuts and bolts around the front of the engine.
+My gut flagged it. My mind told me to skip it and buy anyway.
 
-A few things I learned when purchasing a new used car. The "owner", or the-one-keep-the-pink-slip, rolled back the odometer which I should have checked the CarFax. They have done a good job with detailing the car but I still see a lot of missing nuts and bolts in the front engine. Unfortunately, my mind told me to just skip it and buy it. 
-
-* Trust your gut, especially when you think those things are necessary, aka. absolutely needed, to do. 
-* DO NOT RUSH because of the result, you might neglect the most important details.
-* LEAVE YOUR EMOTIONS at home. This might be just me, 
+* Trust your gut, especially when it's telling you a check is necessary —
+  absolutely needed — before you commit.
+* DO NOT RUSH because you want the result. That's exactly when you neglect the
+  most important details.
+* LEAVE YOUR EMOTIONS at home. This might be just me, but after weeks of
+  searching I wanted the search to be *over* more than I wanted the right car —
+  and that wanting made the decision for me.

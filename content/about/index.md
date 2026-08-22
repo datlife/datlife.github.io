@@ -3,8 +3,10 @@ title: "About"
 draft: false
 hideDate: true
 ---
-![Hello](dat_sf.jpg)
-Hey there, thanks for stopping by. Please don't view this page as my resume for work. It's not. It's about me as a human being. Check my LinkedIn for my work profile.
+![Dat in San Francisco](dat_sf.jpg)
+Hey there, thanks for stopping by. This page isn't a resume — it's about me as
+a human being. The work side lives on the [home page](/) and my
+[resume](https://resume.dat.works/).
 
 * Grew up in Vietnam, and calling the Bay Area my second home now 🏡.
 
@@ -18,6 +20,7 @@ Hey there, thanks for stopping by. Please don't view this page as my resume for 
 * Quality time with my loved ones
 * Intriguingly new ideas / concepts.
 * Exercise daily and eat healthy (low sat fat / high fiber diet)
+* Sun in the morning
 * Real human interactions.
 * Music + moving my body. Current favorite artists are Ben Böhmer and Lost Frequencies.
 
@@ -36,7 +39,5 @@ Dat ☺️
 
 
 ### Random links
-- My *parsable* resume:
-https://resume.dat.works/
-- My disorganized yet functional projects 😉:
-https://github.com/datlife
+- My *parsable* resume: https://resume.dat.works/
+- My projects: https://github.com/datlife

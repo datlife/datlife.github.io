@@ -1,0 +1,16 @@
+{{- /*
+  Markdown image hook: serve page-bundle images resized instead of raw.
+  The about-page photo is 3264px / 744KB straight off a camera; without this,
+  every visitor downloads the original. `[imaging]` in config.toml (box filter,
+  q75) governs the resample. Images that are not page resources (external URLs)
+  fall through untouched.
+*/ -}}
+{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- if $img -}}
+  {{- if gt $img.Width 1200 -}}{{- $img = $img.Resize "1200x" -}}{{- end -}}
+  <img src="{{ $img.RelPermalink }}" alt="{{ .Text }}"
+       width="{{ $img.Width }}" height="{{ $img.Height }}"
+       loading="lazy" decoding="async" />
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" />
+{{- end -}}

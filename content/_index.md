@@ -2,16 +2,25 @@
 title: "Dat Nguyen"
 ---
 
-I grew up in Vietnam and call the Bay Area my second home. I build software for
-a living
+I grew up in Vietnam and call the Bay Area my second home. I'm a
+machine-learning engineer at [Zscaler](https://www.zscaler.com/), where I work
+on ML systems for security — the kind that have to hold up in production, not
+just in a notebook.
 
-
-**I write a few times a year.** Not a newsletter, no comments, nothing to
+**I write a few times a year** — mostly about building software and ML systems,
+sometimes about money and attention. Not a newsletter, no comments, nothing to
 subscribe to. If something here is useful to you, take it and go.
 
 ---
 
-**Currently** — MLE @ Zscaler in the Bay Area.
+**Projects**
+
+- [jetson-car](https://github.com/datlife/jetson-car) — an autonomous RC racing
+  car on an NVIDIA Jetson TX2, driven end-to-end by a neural network.
+- [yolov2](https://github.com/datlife/yolov2) — a YOLOv2 object-detection
+  implementation in TensorFlow/Keras.
+- [deepcom](https://github.com/datlife/deepcom) — reproducing *Communication
+  Algorithms via Deep Learning*.
 
 **For fun** — Snowboarding, camping, and concerts. Solo backpacking and
 spontaneous getaways. Pour-over coffee, taken more seriously than it deserves.
@@ -21,4 +30,4 @@ Learning Spanish, slowly.
 media is the new cigarette, and I'm not pretending I've quit.
 
 **Elsewhere** — [Resume](https://resume.dat.works/) ·
-[GitHub](https://github.com/datlife) — disorganized, but it works.
+[GitHub](https://github.com/datlife)

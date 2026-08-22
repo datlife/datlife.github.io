@@ -7,7 +7,7 @@ enableEmoji = true
 # Only `tag` — `categories` was a second taxonomy doing the same job.
 # Controlled vocabulary, deliberately small. Adding a tag outside this list is
 # how you end up with 30 single-use tags, which is the same as having none:
-#   software · money · books · attention · travel · life
+#   software · ml · money · books · attention · travel · life
 [taxonomies]
   tag = "tags"
 
@@ -34,14 +34,16 @@ enableEmoji = true
   color = 'linen'
   # Rendered as the icon row in the header. Order is fixed by the theme:
   # twitter, github, instagram, linkedin, mastodon, rss.
-  # TODO(dat): add `linkedin = '<handle>'` — the about page tells people to check
-  # your LinkedIn but never links it.
+  # TODO(dat): fill in your LinkedIn handle below and uncomment — the theme
+  # renders it as https://linkedin.com/in/<handle>. Do not guess; a wrong
+  # handle ships a broken link in the header of every page.
+  # linkedin = '<handle>'
   twitter = 'datfreedom'
   github = 'datlife'
   rss = true
   name = 'Dat Nguyen'
   author = 'Dat Nguyen'
-  description = 'Software engineer in the Bay Area. I write a few times a year about software, money, attention, and the things I have changed my mind about.'
+  description = 'Machine-learning engineer in the Bay Area. I write about building software and ML systems, and occasionally about money, attention, and the things I have changed my mind about.'
   bio = 'A good investment is something you have control over.'
   images = ['og.jpg']
   mainSections = ['posts']
