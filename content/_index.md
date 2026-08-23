@@ -6,8 +6,8 @@ I grew up in Vietnam and call the Bay Area my second home. I'm a
 machine-learning engineer at [Zscaler](https://www.zscaler.com/), where I work
 on ML systems for security.
 
-**I write a few times a year** — mostly about building software and ML systems,
-sometimes about money and attention. Not a newsletter, no comments, nothing to
+**I aim to write a few times a year** — about building software and ML systems,
+sometimes about life, personal finance and attention management. Not a newsletter, no comments, nothing to
 subscribe to. If something here is useful to you, take it and go.
 
 ---
@@ -21,8 +21,7 @@ subscribe to. If something here is useful to you, take it and go.
 - [deepcom](https://github.com/datlife/deepcom) — reproducing *Communication
   Algorithms via Deep Learning*.
 
-**For fun** — Snowboarding, camping, and concerts. Solo backpacking and
-spontaneous getaways. Pour-over coffee, taken more seriously than it deserves.
+**For fun** — Snowboarding, camping, and concerts. Pour-over coffee, taken more seriously than it deserves.
 Learning Spanish, slowly.
 
 **Trying to get better at** — Controlling my attention and intention. Social
