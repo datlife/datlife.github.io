@@ -34,13 +34,10 @@ enableEmoji = true
   color = 'linen'
   # Rendered as the icon row in the header. Order is fixed by the theme:
   # twitter, github, instagram, linkedin, mastodon, rss.
-  # TODO(dat): fill in your LinkedIn handle below and uncomment — the theme
-  # renders it as https://linkedin.com/in/<handle>. Do not guess; a wrong
-  # handle ships a broken link in the header of every page.
-  # linkedin = '<handle>'
+  # The theme renders linkedin as https://linkedin.com/in/<handle>.
   twitter = 'datfreedom'
   github = 'datlife'
-  rss = true
+  linkedin = 'datwork'
   name = 'Dat Nguyen'
   author = 'Dat Nguyen'
   description = 'Machine-learning engineer in the Bay Area. I write about building software and ML systems, and occasionally about money, attention, and the things I have changed my mind about.'
